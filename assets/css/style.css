@@ -118,7 +118,7 @@ margin-top: 25px;
 #Portfolio {
     margin-top: 15px;
     margin-bottom: 50px;;
-    overflow: hidden;
+    overflow: auto;
  }
 
 
@@ -128,7 +128,7 @@ margin-top: 25px;
     background: rgb(43, 42, 42);
     float: left;
     padding: 10px;
-    overflow: hidden;
+    overflow: auto;
  }
 
 .pictures h3 {
@@ -142,7 +142,7 @@ margin-top: 25px;
     width: 40%;
     float: left;
     margin: 0 15px;
-    overflow: hidden;
+    overflow: auto;
     z-index: 1;
     padding: 10px 15px;
 }
@@ -219,15 +219,67 @@ form .submitButton input[type="submit"] {
 
 /* mediascreens */
 
-@media screen {
-    max-width: 980px;
+@media screen and (max-width: 980px){
+   /* index page */
+    #personalFloat {
+        width: 60%;
+    }
+    #connect {
+        width: 170px;
+        float: left;
+        margin-left: 85px;
+    }
+    /* End index page */
 }
 
-@media screen {
-    max-width: 768px;
+@media screen and (max-width:768px) {
+    /* Index page */
+    #personalFloat {
+        width: 100%
+    }
+    #connect {
+        width: 100%;
+        float: left;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    .connectHeader h2{
+        text-align: left;
+        margin-left: 20px;
+    }
+    #links {
+        text-align: left;
+        margin-left: 45px;
+    }
 }
+    /* End index page */
 
-@media screen {
-    max-width: 640px;
+
+@media screen and (max-width: 640){
+    /* Index page */
+    #personalFloat{
+        width: 100%;
+    }
+    personalImage {
+        text-align: left;
+    }
+
+    #connect {
+        width: 100%;
+        float: left;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    .connectHeader h2{
+        text-align: left;
+        margin-left: 20px;
+    }
+    #links {
+        text-align: left;
+        margin-left: 45px;
+    }
 }
+    
+    /* End index page */
+
 
