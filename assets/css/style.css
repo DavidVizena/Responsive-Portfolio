@@ -234,7 +234,19 @@ form .submitButton input[type="submit"] {
         margin-left: 85px;
     }
     /* End index page */
-}
+    /* Start of portfolio page */
+    .pictures .wrapper {
+        width: 80%;
+    }
+    .pictures{
+        width: 50%;
+        margin-left: 100px;
+    }
+    #davidvizena{
+        margin-left: 80px;
+    }
+    /* End of portfolio page */
+
 
 @media screen and (max-width:768px) {
     /* Index page */
@@ -257,6 +269,19 @@ form .submitButton input[type="submit"] {
     }
 }
     /* End index page */
+    /* Start of portfolio page */
+    #connect {
+        float: left;
+        width: 48%;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .pictures {
+        width: 50%;
+    }
+
+
+    /* End of portfolio page */
 
 
 @media screen and (max-width: 640){
