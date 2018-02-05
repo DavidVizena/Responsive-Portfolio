@@ -225,90 +225,45 @@ form .submitButton input[type="submit"] {
 
 @media screen and (max-width: 980px){
    /* index page */
-    #personalFloat {
-        width: 60%;
-    }
-    #connect {
-        width: 170px;
+   #davidvizena {
+       margin-left: 60px;
+   } 
+   #navigation {
+       margin-right: 220px;
+   }
+   #personalFloat {
+        width: 40%;
         float: left;
-        margin-left: 85px;
-    }
-    /* End index page */
-    /* Start of portfolio page */
-    .pictures .wrapper {
-        width: 80%;
-    }
-    .pictures{
-        width: 50%;
-        margin-left: 100px;
-    }
-    #davidvizena{
         margin-left: 80px;
     }
+    #personalFloat img{
+        margin-left: 80px;
+    }
+    #personalFloat p {
+        float: left;
+    }
+    #connect {
+        float: right;
+        width: 30%;
+        margin-right: 140px;
+    }
+
+    /* End index page */
+    /* Start of portfolio page */
+
     /* End of portfolio page */
 
 
 @media screen and (max-width:768px) {
     /* Index page */
-    #personalFloat {
-        width: 100%
-    }
-    #connect {
-        width: 100%;
-        float: left;
-        margin-top: 15px;
-        margin-left: 0px;
-    }
-    .connectHeader h2{
-        text-align: left;
-        margin-left: 20px;
-    }
-    #links {
-        text-align: left;
-        margin-left: 45px;
-    }
-}
+    
     /* End index page */
     /* Start of portfolio page */
-    #connect {
-        float: left;
-        width: 48%;
-        margin-left: 50px;
-        margin-top: 10px;
-    }
-    .pictures {
-        width: 50%;
-    }
-
-
     /* End of portfolio page */
-
+}
 
 @media screen and (max-width: 640){
     /* Index page */
-    #personalFloat{
-        width: 100%;
-    }
-    personalImage {
-        text-align: left;
-    }
-
-    #connect {
-        width: 100%;
-        float: left;
-        margin-top: 15px;
-        margin-left: 0px;
-    }
-    .connectHeader h2{
-        text-align: left;
-        margin-left: 20px;
-    }
-    #links {
-        text-align: left;
-        margin-left: 45px;
-    }
-}
     
     /* End index page */
-
-
+}
