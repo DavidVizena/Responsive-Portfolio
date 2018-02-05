@@ -267,6 +267,20 @@ form .submitButton input[type="submit"] {
         width: 100%;
     }
     /* End of portfolio page */
+    /* Start contact page */
+    .messageText{
+        width: 40%;
+        margin-left: 80px;
+    }
+    .messageText textarea {
+        width: 92%;
+    }
+    #connect {
+        float: right;
+        width: 25%;
+        margin-right: 160px;
+    }
+    /* End contact page */
 
 
 @media screen and (max-width:768px) {
