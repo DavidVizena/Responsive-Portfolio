@@ -223,7 +223,7 @@ form .submitButton input[type="submit"] {
 
 /* mediascreens */
 
-@media screen and (max-width: 640){
+@media screen and (min-width: 1px) and (max-width: 640px){
     /* Index page */
     
     /* End index page */
@@ -232,13 +232,63 @@ form .submitButton input[type="submit"] {
     /* Start contact page */
     /* End contact page */
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width: 641px) and (max-width:768px) {
     /* Index page */
+    #davidvizena{
+       margin-left: 15px;
+   }
+   #navigation {
+       margin-right: 300px;
+   }
+    #personalFloat {
+        float: none;
+        width: 78%;
+        margin-bottom: 20px;
+        margin-left: 35px;
+    }
+    #personalImage{
+        float: none;
+    }
+    #personalFloat p{
+        float: none;
+    }
+    #connect{
+        float: left;
+        width: 76%;
+        margin-left: 35px;
+    }
+    .connectHeader h2{
+        text-align: left;
+        margin-left: 20px;
+    }
+    #links{
+        text-align: left;
+        margin-left: 40px;
+    }
     /* End index page */
     /* Start of portfolio page */
+    .pictures {
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 35px;
+    }
+    /* End portfolio page */
+    /* Start Contact page */
+    .messageText{
+        width: 73%;
+        margin-bottom: 15px;
+        margin-left: 35px;
+    }
+    .messageText textarea{
+        width: 91%;
+    }
+    #connect{
+        width: 76%;
+    }
     /* End contact page */
 }   
-@media screen and (max-width: 980px){
+@media screen and (min-width:769px) and (max-width: 980px){
    /* index page */
    #davidvizena {
        margin-left: 60px;
