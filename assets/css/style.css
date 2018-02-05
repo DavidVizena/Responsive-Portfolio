@@ -271,8 +271,26 @@ form .submitButton input[type="submit"] {
 
     /* End index page */
     /* Start of portfolio page */
+    .pictures{
+        float: left;
+        width: 40%;
+        margin-left: 80px;
+    }
+    #connect{
+        float: left;
+        margin-left: 50px;
+    }
     /* End of portfolio page */
     /* Start contact page */
-}
+    .messageText{
+        width: 35%;
+        margin-left: 80px;
+    }
+    .messageText textarea{
+        width: 92%;
+    }
+    #connect {
+        float: right;
+    }
     /* End contact page */
-
+}
