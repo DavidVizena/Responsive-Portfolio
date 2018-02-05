@@ -223,6 +223,21 @@ form .submitButton input[type="submit"] {
 
 /* mediascreens */
 
+@media screen and (max-width: 640){
+    /* Index page */
+    
+    /* End index page */
+    /* Start portfolio page */
+    /* End portfolio page */
+    /* Start contact page */
+    /* End contact page */
+}
+@media screen and (max-width:768px) {
+    /* Index page */
+    /* End index page */
+    /* Start of portfolio page */
+    /* End contact page */
+}   
 @media screen and (max-width: 980px){
    /* index page */
    #davidvizena {
@@ -232,100 +247,32 @@ form .submitButton input[type="submit"] {
        margin-right: 220px;
    }
    #personalFloat {
-        width: 40%;
+        width: 35%;
         float: left;
-        margin-left: 80px;
+        margin-left: 85px;
+        margin-bottom: 100px;
+        padding: 25px;
     }
-    #personalFloat img{
-        margin-left: 80px;
+    #personalFloat h1{
+        margin-left: -15px;
+    }
+    #personalImage{
+        float: left;
+        margin-left: 60px;
     }
     #personalFloat p {
-        float: left;
+        float: right;
     }
     #connect {
         float: right;
         width: 30%;
-        margin-right: 140px;
+        margin-right: 120px;
     }
 
     /* End index page */
     /* Start of portfolio page */
-    .pictures {
-        float: left;
-        width: 40%;
-        margin-left: 80px;
-    }
-    .pictures img p {
-        width: 100%;
-    }
-    #connect {
-        float: right;
-        width: 30%;
-        margin-right: 135px;
-    }
-    .wrapper{
-        width: 100%;
-    }
     /* End of portfolio page */
     /* Start contact page */
-    .messageText{
-        width: 40%;
-        margin-left: 80px;
-    }
-    .messageText textarea {
-        width: 92%;
-    }
-    #connect {
-        float: right;
-        width: 25%;
-        margin-right: 160px;
-    }
-    personalFloat{
-        clear: both;
-    }
-
-    /* End contact page */
-
-
-@media screen and (max-width:768px) {
-    /* Index page */
-    #davidvizena{
-        margin-left: -10px;
-    }  
-    #personalFloat p{
-        float: none;
-    }  
-    #personalFloat {
-        width: 768px;
-        margin-left: 10px;
-        margin-right: 0;
-        margin-bottom: 30px;
-        clear: both;
-    }
-    #connect {
-        float: left;
-        width: 78%;
-        margin-right: 0px;
-        margin-left: 10px;
-        margin-bottom: 150px;
-    }
-    #connect h2{
-        text-align: left;
-        margin-left: 20px;
-    }
-    #links{
-        text-align: left;
-        margin-left: 43px;
-    }
 }
-    /* End index page */
-    /* Start of portfolio page */
-
-    /* End of portfolio page */
-
-
-@media screen and (max-width: 640){
-    /* Index page */
-    
-    /* End index page */
+    /* End contact page */
 
