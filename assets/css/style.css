@@ -280,19 +280,52 @@ form .submitButton input[type="submit"] {
         width: 25%;
         margin-right: 160px;
     }
+    personalFloat{
+        clear: both;
+    }
+
     /* End contact page */
 
 
 @media screen and (max-width:768px) {
     /* Index page */
-    
+    #davidvizena{
+        margin-left: -10px;
+    }  
+    #personalFloat p{
+        float: none;
+    }  
+    #personalFloat {
+        width: 768px;
+        margin-left: 10px;
+        margin-right: 0;
+        margin-bottom: 30px;
+        clear: both;
+    }
+    #connect {
+        float: left;
+        width: 78%;
+        margin-right: 0px;
+        margin-left: 10px;
+        margin-bottom: 150px;
+    }
+    #connect h2{
+        text-align: left;
+        margin-left: 20px;
+    }
+    #links{
+        text-align: left;
+        margin-left: 43px;
+    }
+}
     /* End index page */
     /* Start of portfolio page */
+
     /* End of portfolio page */
-}
+
 
 @media screen and (max-width: 640){
     /* Index page */
     
     /* End index page */
-}
+
