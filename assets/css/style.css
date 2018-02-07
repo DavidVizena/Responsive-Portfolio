@@ -126,11 +126,11 @@ margin-top: 25px;
 
  .pictures {
     box-sizing: border-box;
-    width: 650px;
     background: rgb(43, 42, 42);
     float: left;
     padding: 10px;
     overflow: auto;
+    width: 650px;
  }
 
 .pictures h3 {
